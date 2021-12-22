@@ -1,5 +1,6 @@
 package BuilderPattern;
 
+//this is builder pattern
 public class EcommApp {
 	
 	private int orderId;
