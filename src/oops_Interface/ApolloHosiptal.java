@@ -96,6 +96,9 @@ public class ApolloHosiptal extends UNHG implements USMedical , UKMedical, India
 		
 	}
 	
+	//If child class has overriden default method then you can call only child class optServices() method.
+	//YOu can not call parent interface default method now.
+	
 
 	
 	

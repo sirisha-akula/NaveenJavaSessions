@@ -33,7 +33,7 @@ public interface USMedical extends Medical {
 	//2. can have non-static default method:
 	//default methods can be ovveriden in implemented class.
 	default void optServices() {
-		System.out.println("USMedical -- opt");
+		System.out.println("USMedical -- OptServices");
 	}
 	
 		
