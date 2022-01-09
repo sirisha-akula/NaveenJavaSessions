@@ -8,6 +8,7 @@ public class ArrayListConcept {
 		// Collection
 		//ArrayList --default class
 		//dynamic array
+		//arraylist is order based collection
 		
 		//object of arraylist:
 		ArrayList ar = new ArrayList();
@@ -16,6 +17,8 @@ public class ArrayListConcept {
 		ar.add(100);  //0
 		ar.add(200);  //1	
 		System.out.println(ar.size()); //2
+		
+		ar.forEach(e -> System.out.println(e));
 		
 		ar.add("tom"); //2
 		ar.add('M'); //3		
@@ -28,6 +31,7 @@ public class ArrayListConcept {
 		ar.add(300);
 		System.out.println(ar.size()); //5
 		System.out.println(ar.get(0)); //100
+		System.out.println(ar.get(1)); //200
 		//System.out.println(ar.get(-1)); //Index out of Bound Exception--IOB
 		//System.out.println(ar.get(5)); //Index out of Bound Exception--IOB, as size of array is 4, we get IOB when we try to get ar.get(5)
 		//size(), get() methods always works on Physical capacity(PC).

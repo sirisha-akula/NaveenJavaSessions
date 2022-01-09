@@ -67,14 +67,14 @@ public class Ecomm {
     public void search() { //default search
     	
     }
-    public void search(String prodName) { //default search
+    public void search(String prodName) {
     	
     }
-    public void search(String prodName, String color) { //default search
+    public void search(String prodName, String color) { 
     	
     }
 	
-    public void search(String prodName, String color, int price) { //default search
+    public void search(String prodName, String color, int price) { 
     	
     }
     //payment feature:

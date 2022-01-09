@@ -9,7 +9,7 @@ public class FinallyInterviewQ {
 		if (name.equals("Ram")) {
 			try {
 			marks = 90/2;
-			System.exit(1); //shut down JVM status code 0 or 1 it will shutdown jvm.
+			//System.exit(1); //shut down JVM status code 0 or 1 it will shutdown jvm.
 			return marks;
 			}catch(ArithmeticException e) {
 				System.out.println("AE is coming.....");

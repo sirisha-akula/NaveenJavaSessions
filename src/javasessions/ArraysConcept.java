@@ -48,6 +48,11 @@ public class ArraysConcept {
 			System.out.println(a[i]);
 		}
 		
+		
+		System.out.println("-------");
+		for(int i= len-1;i>=0;i--) {
+			System.out.println(a[i]);
+		}
 		System.out.println("-------");
 		//for each loop :enhanced loop
 		for(int e : a) {
