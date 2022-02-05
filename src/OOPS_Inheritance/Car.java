@@ -28,6 +28,10 @@ public class Car extends Vehicle{
 		System.out.println("Car----Refuel");
 	}
 	
+	@Override
+	public void engine() {
+		System.out.println("car---Engine");
+	}
 	
 	
 }

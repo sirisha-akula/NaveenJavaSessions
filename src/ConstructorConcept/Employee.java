@@ -31,11 +31,11 @@ public class Employee {
 		System.out.println("default constructor");
 	}
 	
-	public Employee(int i) { //0 parameter
+	public Employee(int i) { //1 parameter
 		System.out.println("1 constructor..." +i);
 	}
 	
-	public Employee(int i, String p) { //0 parameter
+	public Employee(int i, String p) { //2 parameter
 		System.out.println("2 constructor..." +i+p);
 	}
 
